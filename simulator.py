@@ -11,7 +11,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 # ADS configuration.
 global AMS_NET_ID
 global AMS_NET_PORT
-AMS_NET_ID = '192.168.19.1.1.1'
+AMS_NET_ID = '127.0.0.1.1.1'
 AMS_NET_PORT = 851
 
 class ReadTimer(QtCore.QThread):
